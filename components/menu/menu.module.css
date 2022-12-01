@@ -8,6 +8,19 @@
   border-radius: calc(var(--grid-baseline) / 2);
 }
 
+.scrollable {
+  overflow-y: scroll;
+  max-height: 100%;
+}
+
+.hRule {
+  width: 100%;
+  height: 1px;
+  background-color: #111111;
+  filter: brightness(200%);
+  margin: var(--grid-baseline) 0;
+}
+
 .macOSWindow {
   display: flex;
   gap: calc(var(--grid-baseline) * 1.25);
@@ -39,6 +52,7 @@
   flex-direction: column;
 
   height: 100%;
+  max-width: calc(var(--grid-baseline) * 40);
   padding: calc(var(--grid-baseline) * 2);
   gap: calc(var(--grid-baseline) * 2.5);
 
@@ -46,6 +60,8 @@
 }
 
 .menuFake {
+
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: calc(var(--grid-baseline) * 1.5);
@@ -71,6 +87,33 @@
   filter: brightness(65%);
 }
 
-.menuFakeLink svg {
-  /*filter: brightness(65%);*/
+.blogLinks {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--grid-baseline) * 2);
+  max-height: calc(var(--grid-baseline) * 40);
+  overflow-y: scroll;
+}
+
+.blogLinksGradient {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: calc(var(--grid-baseline) * 8);
+
+  z-index: 100;
+
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,100) 100%);
+}
+
+.blogLinks p {
+  color: var(--color-white);
+  filter: brightness(65%);
+
+  margin: 0;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 0.85rem;
 }

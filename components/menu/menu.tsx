@@ -15,7 +15,7 @@ export const Menu = () => {
         <div className={styles.macOSMaximise}></div>
       </div>
 
-      <div>
+      <div className={styles.scrollable}>
         <nav className={styles.menuFake}>
           <div className={styles.menuFakeLink}>
             <AiOutlineHome size={27}/>
@@ -58,6 +58,36 @@ export const Menu = () => {
             </div>
             <p>Saved episodes</p>
           </div>
+
+          <div className={styles.hRule}/>
+
+          <div className={styles.blogLinks}>
+            <p>Euismod nisi porta lorem mollissssssss</p>
+            <p>Euismod nisi porta lorem mollis</p>
+            <p>Euismod nisi porta lorem mollis</p>
+            <p>Euismod nisi porta lorem mollis</p>
+            <p>Euismod nisi porta lorem mollis</p>
+            <p>Euismod nisi porta lorem mollis</p>
+            <p>Euismod nisi porta lorem mollis</p>
+            <p>Euismod nisi porta lorem mollis</p>
+            <p>Euismod nisi porta lorem mollis</p>
+            <p>Euismod nisi porta lorem mollis</p>
+            <p>Euismod nisi porta lorem mollis</p>
+            <p>Euismod nisi porta lorem mollis</p>
+            <p>Euismod nisi porta lorem mollis</p>
+            <p>Euismod nisi porta lorem mollis</p>
+            <p>Euismod nisi porta lorem mollis</p>
+            <p>Euismod nisi porta lorem mollis</p>
+            <p>Euismod nisi porta lorem mollis</p>
+            <p>Euismod nisi porta lorem mollis</p>
+            <p>Euismod nisi porta lorem mollis</p>
+            <p>Euismod nisi porta lorem mollis</p>
+            <p>Euismod nisi porta lorem mollis</p>
+            <p>Euismod nisi porta lorem mollis</p>
+            <p>Euismod nisi porta lorem mollis</p>
+          </div>
+
+          <div className={styles.blogLinksGradient}/>
         </nav>
       </div>
     </section>
