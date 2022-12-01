@@ -1,0 +1,131 @@
+.footer {
+  width: 100%;
+  height: calc(var(--grid-baseline) * 12);
+  max-height: 100%;
+  padding: calc(var(--grid-baseline) * 2);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: var(--color-black);
+  border-top: 1px solid #393939;
+}
+
+.nowPlaying {
+  height: 100%;
+  display: flex;
+  color: var(--color-white);
+  align-items: center;
+  gap: calc(var(--grid-baseline) * 2);
+}
+
+.nowPlaying img {
+  display: block;
+  width: auto;
+  height: 100%;
+  aspect-ratio: 1/1;
+  border-radius: calc(var(--grid-baseline) / 4);
+}
+
+.nowPlayingText {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: calc(var(--grid-baseline) / 2);
+}
+
+.nowPlayingText p {
+  margin: 0;
+}
+
+.nowPlayingHeart {
+  color: var(--color-green);
+  margin-left: var(--grid-baseline);
+  font-size: 1.3rem;
+}
+
+.nowPlayingTitle {
+  font-weight: 500;
+}
+
+.nowPlayingArtist {
+  filter: brightness(65%);
+  font-size: 0.8rem;
+}
+
+.mediaControl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: calc(var(--grid-baseline) / 2);
+}
+
+.mediaControlButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: calc(var(--grid-baseline) * 4);
+  color: var(--color-white);
+}
+
+.mediaControlProgress {
+  display: flex;
+  align-items: center;
+  gap: calc(var(--grid-baseline) * 2);
+}
+
+.mediaControlProgress p {
+  color: var(--color-white);
+  filter: brightness(65%);
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.mediaControlBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mediaControlGreen {
+  width: calc(var(--grid-baseline) * 8);
+  height: calc(var(--grid-baseline) / 3);
+  background-color: var(--color-green);
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 100px;
+}
+
+.mediaControlDot {
+  width: calc(var(--grid-baseline) * 2);
+  height: calc(var(--grid-baseline) * 2);
+  background-color: var(--color-white);
+  border-radius: 100%;
+}
+
+.mediaControlWhite {
+  width: calc(var(--grid-baseline) * 40);
+  height: calc(var(--grid-baseline) / 3);
+  background-color: var(--color-white);
+  filter: brightness(50%);
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+.audioControl {
+  color: var(--color-white);
+  filter: brightness(75%);
+  display: flex;
+  font-size: 1.2rem;
+  gap: var(--grid-baseline);
+  justify-content: center;
+  align-items: center;
+}
+
+.audioControlWhite {
+  width: calc(var(--grid-baseline) * 12);
+  height: calc(var(--grid-baseline) / 3);
+  background-color: var(--color-white);
+  border-radius: 100px;
+}

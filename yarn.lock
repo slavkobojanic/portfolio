@@ -63,6 +63,11 @@
   dependencies:
     glob "7.1.7"
 
+"@next/font@^13.0.5":
+  version "13.0.5"
+  resolved "https://registry.yarnpkg.com/@next/font/-/font-13.0.5.tgz#db0ef389d926d3a8b649db8aa76e67f9502a478f"
+  integrity sha512-NrP4B8pxwerrkkuG/m7MQv0ks89Kk4Lc0kzbiRaYX+Xb0coDaw+I9T+g42aOHf8j8ta1vtKqb5XE1+troZ4CoQ==
+
 "@next/swc-android-arm-eabi@13.0.5":
   version "13.0.5"
   resolved "https://registry.yarnpkg.com/@next/swc-android-arm-eabi/-/swc-android-arm-eabi-13.0.5.tgz#bb83f8a8bea5d3d813059a28624e9ff3c0c22bac"
@@ -405,6 +410,11 @@ chalk@^4.0.0:
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
+
+classnames@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.2.tgz#351d813bf0137fcc6a76a16b88208d2560a0d924"
+  integrity sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==
 
 client-only@0.0.1:
   version "0.0.1"
@@ -1533,6 +1543,11 @@ react-dom@18.2.0:
   dependencies:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
+
+react-icons@^4.7.1:
+  version "4.7.1"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.7.1.tgz#0f4b25a5694e6972677cb189d2a72eabea7a8345"
+  integrity sha512-yHd3oKGMgm7zxo3EA7H2n7vxSoiGmHk5t6Ou4bXsfcgWyhfDKMpyKfhHR6Bjnn63c+YXBLBPUql9H4wPJM6sXw==
 
 react-is@^16.13.1:
   version "16.13.1"
