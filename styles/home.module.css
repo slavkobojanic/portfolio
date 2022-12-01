@@ -1,0 +1,12 @@
+.content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.sections {
+  display: grid;
+  grid-template-columns: 1.5fr 3fr 1.5fr;
+  flex-grow: 1;
+}

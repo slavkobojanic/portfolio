@@ -8,8 +8,8 @@
   justify-content: space-between;
   align-items: center;
 
-  background-color: var(--color-black);
-  border-top: 1px solid #393939;
+  background-color: var(--color-footer-bg);
+  border-top: 1px solid var(--color-footer-border);
 }
 
 .nowPlaying {
@@ -66,7 +66,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: calc(var(--grid-baseline) * 4);
+  gap: calc(var(--grid-baseline) * 2);
   color: var(--color-white);
 }
 

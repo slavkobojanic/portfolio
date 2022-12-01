@@ -3,6 +3,20 @@
   --color-black: #191414;
   --color-white: #FFFFFF;
 
+  --color-footer-bg: #181818;
+  --color-footer-border: #282828;
+
+  --color-menu-bg: #000000;
+
+  --color-activity-bg: #121212;
+
+  --color-mac-close: #ED6A5E;
+  --color-mac-close-border: #BB534A;
+  --color-mac-minimise: #F5BF4F;
+  --color-mac-minimise-border: #C1963E;
+  --color-mac-maximise: #62C554;
+  --color-mac-maximise-border: #4D9B42;
+
   --grid-baseline: 8px;
 }
 

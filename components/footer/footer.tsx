@@ -1,5 +1,4 @@
 import styles from './footer.module.css';
-import { Figtree } from '@next/font/google';
 import Image from 'next/image';
 import nowPlayingImg from 'public/now_playing.jpeg';
 import { AiFillHeart, AiFillPlayCircle, AiOutlineExpandAlt } from 'react-icons/ai';
@@ -8,11 +7,9 @@ import { ImLoop } from 'react-icons/im';
 import { IoMdShuffle, IoMdVolumeHigh } from 'react-icons/io';
 import { MdDevices, MdOutlineQueueMusic } from 'react-icons/md';
 
-const font = Figtree();
-
 export const Footer = () => {
   return (
-    <footer className={font.className}>
+    <footer>
       <div className={styles.footer}>
         <section className={styles.nowPlaying}>
           <Image src={nowPlayingImg} alt="Now playing image"/>

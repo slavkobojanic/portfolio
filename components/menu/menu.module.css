@@ -1,0 +1,76 @@
+.gradientMenuItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(var(--grid-baseline) * 3.5);
+  height: calc(var(--grid-baseline) * 3.5);
+  border-radius: calc(var(--grid-baseline) / 2);
+}
+
+.macOSWindow {
+  display: flex;
+  gap: calc(var(--grid-baseline) * 1.25);
+}
+
+.macOSWindow div {
+  width: calc(var(--grid-baseline) * 1.5);
+  height: calc(var(--grid-baseline) * 1.5);
+  border-radius: 100px;
+}
+
+.macOSClose {
+  background-color: var(--color-mac-close);
+  border: 1px solid var(--color-mac-close-border);
+}
+
+.macOSMinimise {
+  background-color: var(--color-mac-minimise);
+  border: 1px solid var(--color-mac-minimise-border);
+}
+
+.macOSMaximise {
+  background-color: var(--color-mac-maximise);
+  border: 1px solid var(--color-mac-maximise-border);
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+  padding: calc(var(--grid-baseline) * 2);
+  gap: calc(var(--grid-baseline) * 2.5);
+
+  background-color: var(--color-menu-bg);
+}
+
+.menuFake {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--grid-baseline) * 1.5);
+}
+
+.menuFake:first-of-type {
+  margin-bottom: calc(var(--grid-baseline) * 4.5);
+}
+
+.menuFakeLink {
+  display: flex;
+  align-items: center;
+  gap: calc(var(--grid-baseline) * 2);
+
+  color: var(--color-white);
+}
+
+.menuFakeLink p {
+  font-size: 0.85rem;
+  font-weight: 900;
+  margin: 0;
+
+  filter: brightness(65%);
+}
+
+.menuFakeLink svg {
+  /*filter: brightness(65%);*/
+}
