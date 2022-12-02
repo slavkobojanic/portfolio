@@ -7,6 +7,6 @@
 
 .sections {
   display: grid;
-  grid-template-columns: 1.5fr 3.25fr 1.25fr;
+  grid-template-columns: 1fr 3.875fr 1.125fr;
   flex-grow: 1;
 }

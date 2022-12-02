@@ -121,7 +121,7 @@
 }
 
 .detailName {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 900;
 }
 
@@ -130,4 +130,83 @@
   height: 100%;
   background-color: rgba(0,0,0,30%);
   backdrop-filter: blur(10px);
+
+  padding: calc(var(--grid-baseline) * 4);
+}
+
+.contentProjectsControls {
+  display: flex;
+  align-items: center;
+  gap: calc(var(--grid-baseline) * 3);
+}
+
+.contentProjectsControls p {
+  border: 1px solid var(--color-white);
+  padding: var(--grid-baseline) calc(var(--grid-baseline) * 1.5);
+  border-radius: 100px;
+
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.controlPlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(var(--grid-baseline) * 7);
+  height: calc(var(--grid-baseline) * 7);
+
+  background-color: var(--color-green);
+  border-radius: 100px;
+}
+
+.controlPlayIcon {
+  width: calc(var(--grid-baseline) * 5);
+  height: calc(var(--grid-baseline) * 5);
+  color: var(--color-black);
+}
+
+.controlDownload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(var(--grid-baseline) * 4);
+  height: calc(var(--grid-baseline) * 4);
+
+  border: 2px solid var(--color-white);
+
+  border-radius: 100px;
+}
+
+.controlDownloadIcon {
+  width: calc(var(--grid-baseline) * 2.5);
+  height: calc(var(--grid-baseline) * 2.5);
+}
+
+.projectTableHeader {
+  margin-top: var(--grid-baseline);
+  display: grid;
+  grid-template-columns: 1fr 7fr 2fr 2fr;
+  border-bottom: 1px solid rgba(255,255,255,15%);
+}
+
+.projectTableHeader p {
+  text-transform: uppercase;
+  color: rgba(255,255,255, 50%);
+  font-size: 0.9rem;
+  padding: 0 var(--grid-baseline);
+}
+
+.projectTableRow {
+  display: grid;
+  grid-template-columns: 1fr 7fr 2fr 2fr;
+}
+
+.projectTableRow > * {
+  padding: 0 var(--grid-baseline);
+  margin: calc(var(--grid-baseline) * 3) 0 0 0;
+  font-weight: 200;
+  font-size: 0.9rem;
 }
