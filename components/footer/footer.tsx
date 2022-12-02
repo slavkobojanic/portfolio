@@ -15,7 +15,7 @@ export const Footer = () => {
           <Image src={nowPlayingImg} alt="Now playing image"/>
           <div className={styles.nowPlayingText}>
             <p className={styles.nowPlayingTitle}>Megaphone & Metrognome</p>
-            <p className={styles.nowPlayingArtist}>Spotify</p>
+            <p className={styles.nowPlayingArtist}>B2B Audio AdTech @ Spotify</p>
           </div>
           <AiFillHeart className={styles.nowPlayingHeart}/>
         </section>

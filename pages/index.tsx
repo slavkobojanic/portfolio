@@ -4,8 +4,12 @@ import { Figtree } from '@next/font/google';
 import styles from 'styles/home.module.css';
 import { Menu } from 'components/menu/menu';
 import { Sidebar } from 'components/sidebar/sidebar';
+import { Content } from 'components/content/content';
 
-const font = Figtree();
+const font = Figtree({
+  weight: ['300', '500', '700', '900'],
+  style: ['normal']
+});
 
 export default function Home() {
   return (
@@ -18,7 +22,7 @@ export default function Home() {
       <div className={styles.content}>
         <div className={styles.sections}>
           <Menu/>
-          <div/>
+          <Content/>
           <Sidebar/>
         </div>
         <Footer/>
