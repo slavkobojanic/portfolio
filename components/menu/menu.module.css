@@ -67,7 +67,7 @@
 }
 
 .menuFake:first-of-type {
-  margin-bottom: calc(var(--grid-baseline) * 4.5);
+  margin-bottom: calc(var(--grid-baseline) * 2);
 }
 
 .menuFakeLink {
@@ -87,10 +87,12 @@
 }
 
 .blogLinks {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: calc(var(--grid-baseline) * 2);
-  max-height: calc(var(--grid-baseline) * 40);
+  height: min-content;
+  width: 100%;
   overflow-y: scroll;
 }
 
