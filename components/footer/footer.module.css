@@ -4,8 +4,8 @@
   max-height: 100%;
   padding: calc(var(--grid-baseline) * 2);
 
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
 
   background-color: var(--color-footer-bg);
@@ -13,7 +13,8 @@
 }
 
 .nowPlaying {
-  height: 100%;
+  height: calc(var(--grid-baseline) * 8);
+  max-height: 100%;
   display: flex;
   color: var(--color-white);
   align-items: center;
@@ -114,13 +115,15 @@
 }
 
 .audioControl {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: var(--grid-baseline);
+
   color: var(--color-white);
   filter: brightness(75%);
-  display: flex;
+
   font-size: 1.2rem;
-  gap: var(--grid-baseline);
-  justify-content: center;
-  align-items: center;
 }
 
 .audioControlWhite {

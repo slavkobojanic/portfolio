@@ -1,6 +1,6 @@
 import styles from './footer.module.css';
 import Image from 'next/image';
-import nowPlayingImg from 'public/now_playing.jpeg';
+import nowPlayingImg from 'public/now_playing.png';
 import { AiFillHeart, AiFillPlayCircle, AiOutlineExpandAlt } from 'react-icons/ai';
 import { BiSkipNext, BiSkipPrevious } from 'react-icons/bi';
 import { ImLoop } from 'react-icons/im';
@@ -14,7 +14,7 @@ export const Footer = () => {
         <section className={styles.nowPlaying}>
           <Image src={nowPlayingImg} alt="Now playing image"/>
           <div className={styles.nowPlayingText}>
-            <p className={styles.nowPlayingTitle}>Web Engineer</p>
+            <p className={styles.nowPlayingTitle}>Megaphone & Metrognome</p>
             <p className={styles.nowPlayingArtist}>Spotify</p>
           </div>
           <AiFillHeart className={styles.nowPlayingHeart}/>

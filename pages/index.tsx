@@ -3,6 +3,7 @@ import { Footer } from 'components/footer/footer';
 import { Figtree } from '@next/font/google';
 import styles from 'styles/home.module.css';
 import { Menu } from 'components/menu/menu';
+import { Sidebar } from 'components/sidebar/sidebar';
 
 const font = Figtree();
 
@@ -18,7 +19,7 @@ export default function Home() {
         <div className={styles.sections}>
           <Menu/>
           <div/>
-          <div/>
+          <Sidebar/>
         </div>
         <Footer/>
       </div>

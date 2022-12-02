@@ -1,0 +1,85 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+  gap: calc(var(--grid-baseline) * 2);
+
+  padding: calc(var(--grid-baseline) * 2);
+
+  background-color: var(--color-activity-bg);
+  color: var(--color-white);
+}
+
+.sidebarHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  filter: brightness(65%);
+}
+
+.sidebarHeader p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.sidebarHeader div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: var(--grid-baseline);
+}
+
+.sidebarExp {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--grid-baseline) * 2);
+}
+
+.exp {
+  display: flex;
+  gap: calc(var(--grid-baseline) * 2);
+
+  height: 50px;
+  width: 100%;
+
+  font-size: 0.675rem;
+}
+
+.exp p {
+  margin: 0;
+}
+
+.expIcon {
+  display: block;
+  width: auto;
+  height: 80%;
+  aspect-ratio: 1/1;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.expText {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: calc(var(--grid-baseline) / 2.5);
+
+  width: 100%;
+}
+
+.expHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.expTitle {
+  font-size: 0.9rem;
+}
+
+.expSkills, .expLocation {
+  filter: brightness(65%);
+}
